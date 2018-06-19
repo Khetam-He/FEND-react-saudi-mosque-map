@@ -1,16 +1,18 @@
-import React, {Component} from 'react';
+import React, {
+    Component
+}
+from 'react';
 
 class Map extends Component {
 
 
     render() {
 
-        return (
-            <div id="map-container">
-                <div id="map" role="application">
+        return ( < div id = "map-container" >
+            < div id = "map"
+            role = "application" >
 
-                </div>
-            </div>
+            < /div> < /div>
         )
     }
 }
