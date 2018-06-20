@@ -14,7 +14,7 @@ to run the project please folow this steps
 3- the project will run otomatically . 
 Notice that you must have node.js installed in your device
 4-To run the application in production mode use :
-    - npm build
+    - npm run build
 
 
 ## useful links 
