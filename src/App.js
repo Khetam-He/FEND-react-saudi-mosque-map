@@ -173,7 +173,7 @@ class App extends Component {
                         "<div id='marker'>" +
                         "<h2>" + self.marker.title + "</h2>" +
                         "<p><b>Address:</b> " + place.location.address + ", " + place.location.city + "</p>" +
-                        "<p><b>website:</b> " + self.marker.website +
+                        "<p><b>website:</b> " +"<a target= \"_blank\" href=>"+self.marker.website+"</a>"+
                         "</div>";
                     self.setContent(info);
                 });
